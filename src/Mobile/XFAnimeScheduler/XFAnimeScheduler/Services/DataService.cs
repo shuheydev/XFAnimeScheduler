@@ -38,17 +38,23 @@ namespace XFAnimeScheduler.Services
                 animeInfo.ImagePath = $"{assemblyName}.Resources.Images.{animeInfo.Id}.png";
             }
 
+            //スケジュールを早い順に並べ替え
+            foreach(var animeInfo in _animeInfos)
+            {
+                animeInfo.Schedules = animeInfo.Schedules.OrderBy(s=>s.GetDateTimeOffset()).ToList();
+            }
         }
 
         public async Task<IEnumerable<AnimeInfo>> GetAnimeInfosAsync()
         {
             await Init();
 
-            var a = _animeInfos.Select(a => a.Schedules.Min(s => $"{a.Title} {s.GetDateTimeOffset().ToString()}"));
+            //var a = _animeInfos.Select(a => a.Schedules.Min(s => $"{a.Title} {s.GetDateTimeOffset().ToString()}"));
 
             //放送日の早い順に並び替え用
-            var b = _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
-            return _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
+            //var b = _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
+            //return _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
+            return _animeInfos.OrderBy(anime => anime.Schedules?.First().GetDateTimeOffset());
         }
     }
 }

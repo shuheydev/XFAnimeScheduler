@@ -10,50 +10,52 @@
     Title="詳細"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <StackLayout Margin="10,5">
+        <StackLayout Margin="0">
             <Image
                 Aspect="AspectFill"
                 HeightRequest="200"
                 Source="{Binding AnimeInfo.ImagePath, Converter={conv:ImageSourceConverter}}" />
-            <Frame Margin="10">
+            <StackLayout Margin="10">
+                <Frame Margin="0">
+                    <Label
+                        FontSize="Large"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding AnimeInfo.Title}" />
+                </Frame>
                 <Label
-                    FontSize="Large"
-                    HorizontalTextAlignment="Center"
-                    Text="{Binding AnimeInfo.Title}" />
-            </Frame>
-            <Label
-                HorizontalOptions="End"
-                Text="Official Site"
-                TextColor="RoyalBlue"
-                TextDecorations="Underline">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding OfficialSiteLabelTappedCommand}" CommandParameter="{Binding AnimeInfo.OfficialUrl}" />
-                </Label.GestureRecognizers>
-            </Label>
-            <Frame Margin="10,0">
-                <Label Text="放送スケジュール" />
-            </Frame>
-            <CollectionView
-                Margin="100,0,0,0"
-                BackgroundColor="Transparent"
-                ItemsSource="{Binding AnimeInfo.Schedules}"
-                SelectionMode="Single">
-                <CollectionView.ItemsLayout>
-                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
-                </CollectionView.ItemsLayout>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Station}" />
-                            <Label Margin="30,0,0,0" Text="{Binding DateTimeFrom}" />
-                            <BoxView
-                                Margin="10,0"
-                                BackgroundColor="LightPink"
-                                HeightRequest="1" />
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+                    HorizontalOptions="End"
+                    Text="Official Site"
+                    TextColor="RoyalBlue"
+                    TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OfficialSiteLabelTappedCommand}" CommandParameter="{Binding AnimeInfo.OfficialUrl}" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Frame Margin="0">
+                    <Label Text="放送スケジュール" />
+                </Frame>
+                <CollectionView
+                    Margin="100,0,0,0"
+                    BackgroundColor="Transparent"
+                    ItemsSource="{Binding AnimeInfo.Schedules}"
+                    SelectionMode="Single">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Label Text="{Binding Station}" />
+                                <Label Margin="30,0,0,0" Text="{Binding DateTimeFrom}" />
+                                <BoxView
+                                    Margin="10,0"
+                                    BackgroundColor="LightPink"
+                                    HeightRequest="1" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

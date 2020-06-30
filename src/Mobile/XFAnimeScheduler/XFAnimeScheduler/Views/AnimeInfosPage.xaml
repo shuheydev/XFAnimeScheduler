@@ -13,27 +13,44 @@
 
     <CollectionView BackgroundColor="#eeeeee" ItemsSource="{Binding AnimeInfos}">
         <CollectionView.ItemsLayout>
-            <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+            <LinearItemsLayout ItemSpacing="0" Orientation="Vertical" />
         </CollectionView.ItemsLayout>
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid>
                     <Frame
                         Margin="5"
+                        Padding="0"
                         BackgroundColor="White"
                         CornerRadius="10">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:AnimeInfosPageViewModel}}, Path=ListItemTappedCommand}" CommandParameter="{Binding Id}" />
                         </Frame.GestureRecognizers>
-                        <StackLayout Orientation="Horizontal">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
                             <Image
+                                Grid.Column="0"
                                 Aspect="AspectFill"
                                 HeightRequest="100"
                                 Source="{Binding ImagePath, Converter={conv:ImageSourceConverter}}"
                                 WidthRequest="100" />
-                            <StackLayout>
-                                <Label FontSize="Large" Text="{Binding Title}" />
-                                <Label HorizontalOptions="End" Text="{Binding Schedules[0].DateTimeFrom}" />
+                            <StackLayout
+                                Grid.Column="1"
+                                Margin="5"
+                                HorizontalOptions="FillAndExpand">
+                                <Label
+                                    FontSize="Large"
+                                    Text="{Binding Title}"
+                                    VerticalOptions="StartAndExpand" />
+                                <Label HorizontalOptions="End" Text="{Binding Schedules[0].Station}" />
+                                <Label
+                                    HorizontalOptions="End"
+                                    Text="{Binding Schedules[0].DateTimeFrom}"
+                                    VerticalOptions="End" />
                                 <!--<StackLayout BindableLayout.ItemsSource="{Binding Schedules}">
                                 <BindableLayout.ItemTemplate>
                                     <DataTemplate>
@@ -45,7 +62,7 @@
                                 </BindableLayout.ItemTemplate>
                             </StackLayout>-->
                             </StackLayout>
-                        </StackLayout>
+                        </Grid>
                     </Frame>
                 </Grid>
             </DataTemplate>
