@@ -34,11 +34,11 @@ namespace Animescheduler
                 //アニメは25:00などの表記をするため,パースに失敗する
                 if (!int.TryParse(Regex.Match(TimeFrom, @"^\d+").Value, out int hours))
                     return DateTimeOffset.MaxValue;
+                string hoursStr = (hours - 24).ToString().PadLeft(2, '0');
 
-                if (!int.TryParse(Regex.Match(TimeFrom, @"(?<=:)\d+$").Value, out int minutes))
-                    return DateTimeOffset.MaxValue;
+                string minutesStr = Regex.Match(TimeFrom, @"(?<=:)\d+$").Value;
 
-                if (!DateTimeOffset.TryParse($"{DateFrom}{hours}:{minutes}", out DateTimeOffset dateTime))
+                if (!DateTimeOffset.TryParse($"{DateFrom}{hoursStr}:{minutesStr}", out DateTimeOffset dateTime))
                     return DateTimeOffset.MaxValue;
 
                 return dateTime.AddDays(1);

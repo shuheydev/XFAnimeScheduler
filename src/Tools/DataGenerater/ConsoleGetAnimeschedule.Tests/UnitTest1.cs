@@ -43,6 +43,15 @@ namespace Animescheduler.Tests
             this._scraper = animeScraper.GetService<IAnimeScraper>();
         }
 
+        private IHtmlDocument _doc = default(IHtmlDocument);
+        private IHtmlCollection<IElement> _animeElements;
+        private async Task Init()
+        {
+            _doc ??= await _scraper.GetHtmlDocumentAsync();
+            _animeElements ??= _scraper.GetAnimeElements(_doc);
+        }
+
+
         [Fact(DisplayName = "対象のページのHTMLを取得できること")]
         public async Task TestGetHtml()
         {
@@ -57,6 +66,35 @@ namespace Animescheduler.Tests
         {
             var doc = await _scraper.GetHtmlDocumentAsync();
             Assert.NotNull(doc);
+        }
+
+        [Fact(DisplayName = "日時情報が日本時間のDatetimeoffsetに変換できること")]
+        public async Task TestDateTimeInformation()
+        {
+            await Init();
+
+            var animeInfos = _scraper.ToAnimeInfo(_animeElements);
+
+            foreach (var schedule in animeInfos.SelectMany(a => a.Schedules))
+            {
+                var dt = schedule.GetDateTimeOffset();
+
+                Assert.Equal(typeof(DateTimeOffset), dt.GetType());
+            }
+        }
+
+        [Fact(DisplayName = "2020年2月7日25:00表記を2020年2月8日01:00のDateTimeOffsetに変換できること")]
+        public void TestGetDateTimeOffset()
+        {
+            var schedule = new Schedule();
+
+            schedule.DateTimeFrom = "2020年2月7日25:00";
+            schedule.DateFrom = "2020年2月7日";
+            schedule.TimeFrom = "25:00";
+
+            var dateTime = schedule.GetDateTimeOffset();
+
+            Assert.True(dateTime.Equals(new DateTimeOffset(2020, 2, 8, 1, 0, 0, TimeSpan.FromHours(9))));
         }
     }
 
@@ -136,25 +174,6 @@ namespace Animescheduler.Tests
 
             Assert.True(animeInfos.Any());
             Assert.Equal(32, animeInfos.Count());
-        }
-
-
-        [Fact(DisplayName = "日時情報が日本時間のDatetimeoffsetに変換できること")]
-        public async Task TestDateTimeInformation()
-        {
-            await Init();
-
-            var animeInfos = _scraper.ToAnimeInfo(_animeElements);
-
-            foreach (var schedule in animeInfos.SelectMany(a => a.Schedules))
-            {
-                var dt = schedule.GetDateTimeOffset();
-
-                if (dt == DateTimeOffset.MinValue)
-                    continue;
-
-                Assert.Equal(TimeSpan.FromHours(9), dt.Offset);
-            }
         }
     }
 }
