@@ -12,6 +12,7 @@ namespace Animescheduler
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
         public string OfficialUrl { get; set; } = string.Empty;
+        public string ImagePath { get; set; } = string.Empty;
         public IEnumerable<Schedule> Schedules { get; set; } = new List<Schedule>();
     }
 

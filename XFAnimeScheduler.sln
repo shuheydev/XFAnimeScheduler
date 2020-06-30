@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGetAnimeschedule", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGetAnimeschedule.Tests", "src\Tools\DataGenerater\ConsoleGetAnimeschedule.Tests\ConsoleGetAnimeschedule.Tests.csproj", "{EF3DF5AB-BF8A-4B70-B094-A9599A4B6916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "src\Shared\SharedLibrary\SharedLibrary.csproj", "{12BB55F3-6886-4609-B5A7-4161E5556C35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "src\Shared\SharedLibrary\SharedLibrary.csproj", "{12BB55F3-6886-4609-B5A7-4161E5556C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFAnimeScheduler.Tests", "src\Mobile\XFAnimeScheduler.Tests\XFAnimeScheduler.Tests.csproj", "{AA269561-F8B9-4FCC-8DA6-FEA9D48C654A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFAnimeScheduler.Tests", "src\Mobile\XFAnimeScheduler.Tests\XFAnimeScheduler.Tests.csproj", "{AA269561-F8B9-4FCC-8DA6-FEA9D48C654A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,18 +3,33 @@
     x:Class="XFAnimeScheduler.Views.AnimeInfoDetailsPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:conv="clr-namespace:XFAnimeScheduler.Converters"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ext="clr-namespace:XFAnimeScheduler.Extensions"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="詳細"
     mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout Margin="10,5">
+            <Image
+                Aspect="AspectFill"
+                HeightRequest="200"
+                Source="{Binding AnimeInfo.ImagePath, Converter={conv:ImageSourceConverter}}" />
             <Frame Margin="10">
                 <Label
                     FontSize="Large"
                     HorizontalTextAlignment="Center"
                     Text="{Binding AnimeInfo.Title}" />
             </Frame>
+            <Label
+                HorizontalOptions="End"
+                Text="Official Site"
+                TextColor="RoyalBlue"
+                TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OfficialSiteLabelTappedCommand}" CommandParameter="{Binding AnimeInfo.OfficialUrl}" />
+                </Label.GestureRecognizers>
+            </Label>
             <Frame Margin="10,0">
                 <Label Text="放送スケジュール" />
             </Frame>
