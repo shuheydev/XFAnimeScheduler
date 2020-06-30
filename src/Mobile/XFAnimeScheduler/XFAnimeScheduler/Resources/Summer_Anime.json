@@ -1,0 +1,1270 @@
+[
+  {
+    "Id": 0,
+    "Title": "A.I.C.O. Incarnation",
+    "OfficialUrl": "http://www.project-aico.com/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月12日(日)22:30～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "22:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月14日(火)24:00～",
+        "DateFrom": "2020年7月14日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月14日(火)27:00～",
+        "DateFrom": "2020年7月14日",
+        "TimeFrom": "27:00"
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Title": "アラド：逆転の輪",
+    "OfficialUrl": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+    "Schedules": [
+      {
+        "Station": "テレビ東京",
+        "DateTimeFrom": "2020年7月3日(金)25:53～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:53"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Title": "異常生物見聞録",
+    "OfficialUrl": "http://ijouseibutsu.com/",
+    "Schedules": [
+      {
+        "Station": "BSフジ",
+        "DateTimeFrom": "2020年7月7日(火)24:30～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "24:30"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Title": "宇崎ちゃんは遊びたい！",
+    "OfficialUrl": "https://uzakichan.com/",
+    "Schedules": [
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月10日(金)21:30～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "21:30"
+      },
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月10日(金)22:30～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "22:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月10日(金)23:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "山陰放送",
+        "DateTimeFrom": "2020年7月10日(金)25:55～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "ABCテレビ",
+        "DateTimeFrom": "2020年7月11日(土)26:10～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "26:10"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月11日(土)26:50～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "26:50"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月10日(金)22:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "ABEMA",
+        "DateTimeFrom": "2020年7月13日(月)22:00～",
+        "DateFrom": "2020年7月13日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "ニコニコ動画",
+        "DateTimeFrom": "",
+        "DateFrom": "",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Title": "うまよん",
+    "OfficialUrl": "https://umamusume.jp/umayon/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月7日(火)21:54～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "21:54"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月7日(火)21:54～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "21:54"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Title": "戦乙女の食卓",
+    "OfficialUrl": "http://corp.mihoyo.co.jp/news/?id=141",
+    "Schedules": [
+      {
+        "Station": "BS日テレ",
+        "DateTimeFrom": "2020年7月7日(火)24:28～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "24:28"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Title": "炎炎ノ消防隊 弐ノ章",
+    "OfficialUrl": "https://fireforce-anime.jp/",
+    "Schedules": [
+      {
+        "Station": "TBS",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "北海道放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "東北放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "テレビユー福島",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "新潟放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "中国放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "テレビ山口",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "あいテレビ",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "RKB毎日放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "琉球放送",
+        "DateTimeFrom": "2020年7月3日(金)25:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "BS-TBS",
+        "DateTimeFrom": "2020年7月3日(金)26:30～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "26:30"
+      },
+      {
+        "Station": "MRT宮崎放送",
+        "DateTimeFrom": "2020年7月3日(金)26:52～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "26:52"
+      },
+      {
+        "Station": "信越放送",
+        "DateTimeFrom": "2020年7月3日(金)26:55～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "26:55"
+      },
+      {
+        "Station": "大分放送",
+        "DateTimeFrom": "2020年7月3日(金)27:25～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "27:25"
+      },
+      {
+        "Station": "静岡放送",
+        "DateTimeFrom": "2020年7月8日(水)26:20～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "26:20"
+      },
+      {
+        "Station": "RSK山陽放送",
+        "DateTimeFrom": "2020年7月8日(水)25:53～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:53"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月10日(金)27:05～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "27:05"
+      },
+      {
+        "Station": "IBC岩手放送",
+        "DateTimeFrom": "2020年7月27日(月)24:58～",
+        "DateFrom": "2020年7月27日",
+        "TimeFrom": "24:58"
+      },
+      {
+        "Station": "熊本放送",
+        "DateTimeFrom": "2020年8月7日(月)26:55～",
+        "DateFrom": "2020年8月7日",
+        "TimeFrom": "26:55"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Title": "彼女、お借りします",
+    "OfficialUrl": "https://kanokari-official.com/",
+    "Schedules": [
+      {
+        "Station": "毎日放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "TBS：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "北海道放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "青森テレビ：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "IBC岩手放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "東北放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "テレビユー山形：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "テレビユー福島：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "新潟放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "チューリップテレビ：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "北陸放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "テレビ山梨：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "信越放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "静岡放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "中部日本放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "山陰放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "山陽放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "中国放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "テレビ山口：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "あいテレビ：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "テレビ高知：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "RKB毎日放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "長崎放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "熊本放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "大分放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "宮崎放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "南日本放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      },
+      {
+        "Station": "琉球放送：",
+        "DateTimeFrom": "2020年7月10日(金)25:25～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:25"
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Title": "巨人族の花嫁",
+    "OfficialUrl": "https://kyojinzoku.cf-anime.com/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月5日(日)25:00～",
+        "DateFrom": "2020年7月5日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "ComicFestaアニメ《完全版》",
+        "DateTimeFrom": "2020年7月5日(日)24:00～",
+        "DateFrom": "2020年7月5日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "YouTube《通常版》",
+        "DateTimeFrom": "2020年7月5日(日)25:00～",
+        "DateFrom": "2020年7月5日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "ニコニコ動画《通常版》",
+        "DateTimeFrom": "2020年7月5日(日)25:00～",
+        "DateFrom": "2020年7月5日",
+        "TimeFrom": "25:00"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Title": "GREAT PRETENDER",
+    "OfficialUrl": "http://www.greatpretender.jp/",
+    "Schedules": [
+      {
+        "Station": "フジテレビ",
+        "DateTimeFrom": "2020年7月8日(水)24:55～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "24:55"
+      },
+      {
+        "Station": "テレビ西日本",
+        "DateTimeFrom": "2020年7月8日(水)25:55～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "関西テレビ",
+        "DateTimeFrom": "2020年7月9日(木)25:55～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "東海テレビ",
+        "DateTimeFrom": "2020年7月11日(土)25:45～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "25:45"
+      },
+      {
+        "Station": "北海道文化放送",
+        "DateTimeFrom": "2020年7月12日(日)25:10～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "25:10"
+      },
+      {
+        "Station": "BSフジ",
+        "DateTimeFrom": "2020年7月15日(水)24:00～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "Netflix",
+        "DateTimeFrom": "2020年6月2日(火)～",
+        "DateFrom": "2020年6月2日",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Title": "GETUP!GETLIVE! #げらげら",
+    "OfficialUrl": "http://getup-getlive.com/news/479",
+    "Schedules": [
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月10日(金)25:50～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:50"
+      },
+      {
+        "Station": "TBS",
+        "DateTimeFrom": "2020年7月10日(金)25:50～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:50"
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Title": "恋とプロデューサー～EVOL×LOVE～",
+    "OfficialUrl": "https://koipro-anime.love/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月15日(水)24:00～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月15日(水)24:00～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "BS日テレ",
+        "DateTimeFrom": "2020年7月15日(水)24:00～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月16日(木)21:00～",
+        "DateFrom": "2020年7月16日",
+        "TimeFrom": "21:00"
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Title": "THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール",
+    "OfficialUrl": "http://goh-anime.com/",
+    "Schedules": [
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月6日(月)23:30～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月6日(月)24:00～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "24:00"
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Title": "食戟のソーマ 豪ノ皿",
+    "OfficialUrl": "http://shokugekinosoma.com/5thplate/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月3日(金)24:30～ ※第1話より放送",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月3日(金)24:30～ ※第1話より放送",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "ABEMA",
+        "DateTimeFrom": "2020年7月3日(金)24:30～ ※第1話より放送",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:30"
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Title": "ジビエート",
+    "OfficialUrl": "https://gibiate.com/anime/jp/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月8日(水)22:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月8日(水)23:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "BSフジ",
+        "DateTimeFrom": "",
+        "DateFrom": "",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "Title": "ソードアート・オンライン アリシゼーション War of Underworld THE LAST SEASON",
+    "OfficialUrl": "https://sao-alicization.net/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月11日(土)24:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月11日(土)24:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "とちぎテレビ",
+        "DateTimeFrom": "2020年7月11日(土)24:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "群馬テレビ",
+        "DateTimeFrom": "2020年7月11日(土)24:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月11日(土)26:08～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "26:08"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月12日(日)22:00～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月14日(火)25:35～",
+        "DateFrom": "2020年7月14日",
+        "TimeFrom": "25:35"
+      },
+      {
+        "Station": "ABEMA",
+        "DateTimeFrom": "2020年7月11日(土)24:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:00"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Title": "デカダンス",
+    "OfficialUrl": "http://decadence-anime.com/",
+    "Schedules": [
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月8日(水)23:30～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月8日(水)25:05～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:05"
+      },
+      {
+        "Station": "KBS京都",
+        "DateTimeFrom": "2020年7月8日(水)25:05～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:05"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月8日(水)25:30～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:30"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月8日(水)26:35～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "26:35"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月9日(木)23:00～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "ABEMA",
+        "DateTimeFrom": "2020年7月8日(水)24:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月11日(土)24:30～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "24:30"
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Title": "ド級編隊エグゼロス",
+    "OfficialUrl": "https://hxeros.com/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月3日(金)24:00～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月3日(金)24:00～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "群馬テレビ",
+        "DateTimeFrom": "2020年7月3日(金)24:00～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "とちぎテレビ",
+        "DateTimeFrom": "2020年7月3日(金)24:00～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月3日(金)24:00～",
+        "DateFrom": "2020年7月3日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月4日(土)27:38～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "27:38"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月6日(月)27:05～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "27:05"
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Title": "日本沈没2020",
+    "OfficialUrl": "http://japansinks2020.com/",
+    "Schedules": [
+      {
+        "Station": "Netflix",
+        "DateTimeFrom": "2020年7月9日(木)",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Title": "忍者コレクション",
+    "OfficialUrl": "https://www.tv-tokyo.co.jp/anime/nin_colle/",
+    "Schedules": [
+      {
+        "Station": "テレビ東京",
+        "DateTimeFrom": "2020年7月～",
+        "DateFrom": "",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Title": "ノー・ガンズ・ライフ(第2期)",
+    "OfficialUrl": "http://nogunslife.com/",
+    "Schedules": [
+      {
+        "Station": "TBS",
+        "DateTimeFrom": "2020年7月9日(木)25:28～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:28"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月10日(金)22:30～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "22:30"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月10日(金)24:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "KBS京都",
+        "DateTimeFrom": "2020年7月10日(金)24:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月12日(日)25:00～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "フジテレビオンデマンド",
+        "DateTimeFrom": "2020年7月9日(木)25:29～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:29"
+      }
+    ]
+  },
+  {
+    "Id": 21,
+    "Title": "バキ 大擂台賽編",
+    "OfficialUrl": "https://baki-anime.jp/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月6日(月)24:30～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月6日(月)24:30～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "KBS京都",
+        "DateTimeFrom": "2020年7月6日(月)24:30～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "HTB北海道テレビ",
+        "DateTimeFrom": "2020年7月6日(月)25:20～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "25:20"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月6日(月)26:05～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "26:05"
+      },
+      {
+        "Station": "TVQ九州放送",
+        "DateTimeFrom": "2020年7月9日(木)27:00～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "27:00"
+      },
+      {
+        "Station": "Netflix",
+        "DateTimeFrom": "2020年6月4日(木)～",
+        "DateFrom": "2020年6月4日",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "Title": "HERO MASK(地上波初放送)",
+    "OfficialUrl": "http://heromask.jp/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月2日(木)23:30～",
+        "DateFrom": "2020年7月2日",
+        "TimeFrom": "23:30"
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "Title": "ピーター・グリルと賢者の時間",
+    "OfficialUrl": "http://petergrill-anime.jp/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月10日(金)25:35～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:35"
+      },
+      {
+        "Station": "とちぎテレビ",
+        "DateTimeFrom": "2020年7月13日(月)24:30～",
+        "DateFrom": "2020年7月13日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月10日(金)25:35～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:35"
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "Title": "富豪刑事 Balance:UNLIMITED",
+    "OfficialUrl": "https://www.fugoukeiji-bul.com/",
+    "Schedules": [
+      {
+        "Station": "フジテレビ",
+        "DateTimeFrom": "2020年7月16日(木)～",
+        "DateFrom": "2020年7月16日",
+        "TimeFrom": ""
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "Title": "放課後ていぼう日誌",
+    "OfficialUrl": "https://teibotv.com/",
+    "Schedules": [
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月7日(火)22:00～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月7日(火)24:30～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "24:30"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月7日(火)26:30～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "26:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月8日(水)24:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "RKK熊本放送",
+        "DateTimeFrom": "2020年7月10日(金)25:55～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:55"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月28日(火)24:00～",
+        "DateFrom": "2020年7月28日",
+        "TimeFrom": "24:00"
+      },
+      {
+        "Station": "AbemaTV",
+        "DateTimeFrom": "2020年7月31日(金)24:00～",
+        "DateFrom": "2020年7月31日",
+        "TimeFrom": "24:00"
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "Title": "魔王学院の不適合者～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～",
+    "OfficialUrl": "https://maohgakuin.com/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "とちぎテレビ",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "群馬テレビ",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月5日(日)26:05～",
+        "DateFrom": "2020年7月5日",
+        "TimeFrom": "26:05"
+      },
+      {
+        "Station": "読売テレビ",
+        "DateTimeFrom": "2020年7月6日(月)25:59～",
+        "DateFrom": "2020年7月6日",
+        "TimeFrom": "25:59"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月4日(土)23:30～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "23:30"
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "Title": "ムヒョとロージーの魔法律相談事務所(第2期)",
+    "OfficialUrl": "https://mahouritsu.com/",
+    "Schedules": [
+      {
+        "Station": "アニマックス",
+        "DateTimeFrom": "2020年7月7日(火)19:00～",
+        "DateFrom": "2020年7月7日",
+        "TimeFrom": "19:00"
+      },
+      {
+        "Station": "BSスカパー！",
+        "DateTimeFrom": "2020年7月10日(金)21:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "21:00"
+      },
+      {
+        "Station": "J:テレ「アニおび」",
+        "DateTimeFrom": "2020年7月15日(水)26:00～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "26:00"
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "Title": "モンスター娘のお医者さん",
+    "OfficialUrl": "https://mon-isha-anime.com/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月12日(日)23:00～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "KBS京都",
+        "DateTimeFrom": "2020年7月12日(日)23:00～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月12日(日)23:30～",
+        "DateFrom": "2020年7月12日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月14日(火)24:30～",
+        "DateFrom": "2020年7月14日",
+        "TimeFrom": "24:30"
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "Title": "やはり俺の青春ラブコメはまちがっている。完",
+    "OfficialUrl": "https://www.tbs.co.jp/anime/oregairu/",
+    "Schedules": [
+      {
+        "Station": "TBS",
+        "DateTimeFrom": "2020年7月9日(木)25:58～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:58"
+      },
+      {
+        "Station": "毎日放送",
+        "DateTimeFrom": "2020年7月9日(木)26:30～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "26:30"
+      },
+      {
+        "Station": "BS-TBS",
+        "DateTimeFrom": "2020年7月11日(土)26:00～",
+        "DateFrom": "2020年7月11日",
+        "TimeFrom": "26:00"
+      },
+      {
+        "Station": "CBC",
+        "DateTimeFrom": "2020年7月15日(水)26:35～",
+        "DateFrom": "2020年7月15日",
+        "TimeFrom": "26:35"
+      },
+      {
+        "Station": "静岡放送",
+        "DateTimeFrom": "2020年7月21日(火)26:14～",
+        "DateFrom": "2020年7月21日",
+        "TimeFrom": "26:14"
+      },
+      {
+        "Station": "Amazonプライム・ビデオ",
+        "DateTimeFrom": "2020年7月9日(木)25:43～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:43"
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "Title": "Lapis Re:LiGHTs(ラピスリライツ)",
+    "OfficialUrl": "https://www.lapisrelights.com/anime/",
+    "Schedules": [
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月4日(土)22:00～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "22:00"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月4日(土)22:00～",
+        "DateFrom": "2020年7月4日",
+        "TimeFrom": "22:00"
+      }
+    ]
+  },
+  {
+    "Id": 31,
+    "Title": "Re:ゼロから始める異世界生活(第2期)",
+    "OfficialUrl": "http://re-zero-anime.jp/tv/",
+    "Schedules": [
+      {
+        "Station": "AT-X",
+        "DateTimeFrom": "2020年7月8日(水)22:30～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "22:30"
+      },
+      {
+        "Station": "TOKYO MX",
+        "DateTimeFrom": "2020年7月8日(水)23:30～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "23:30"
+      },
+      {
+        "Station": "BS11",
+        "DateTimeFrom": "2020年7月8日(水)25:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "サンテレビ",
+        "DateTimeFrom": "2020年7月9日(木)25:00～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "KHB東日本放送",
+        "DateTimeFrom": "2020年7月9日(木)25:31～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "25:31"
+      },
+      {
+        "Station": "テレビ北海道",
+        "DateTimeFrom": "2020年7月9日(木)26:00～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "26:00"
+      },
+      {
+        "Station": "テレビ愛知",
+        "DateTimeFrom": "2020年7月9日(木)26:05～",
+        "DateFrom": "2020年7月9日",
+        "TimeFrom": "26:05"
+      },
+      {
+        "Station": "KBS京都",
+        "DateTimeFrom": "2020年7月10日(金)25:00～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "25:00"
+      },
+      {
+        "Station": "TVQ九州放送",
+        "DateTimeFrom": "2020年7月10日(金)26:58～",
+        "DateFrom": "2020年7月10日",
+        "TimeFrom": "26:58"
+      },
+      {
+        "Station": "ABEMA",
+        "DateTimeFrom": "2020年7月8日(水)23:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "23:00"
+      },
+      {
+        "Station": "dアニメストア",
+        "DateTimeFrom": "2020年7月8日(水)23:00～",
+        "DateFrom": "2020年7月8日",
+        "TimeFrom": "23:00"
+      }
+    ]
+  }
+]
