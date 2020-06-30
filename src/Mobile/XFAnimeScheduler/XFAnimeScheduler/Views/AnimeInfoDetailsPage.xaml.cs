@@ -11,22 +11,22 @@ using XFAnimeScheduler.ViewModels;
 namespace XFAnimeScheduler.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class AnimeInfoDetailsPage : ContentPage
     {
-        private readonly MainPageViewModel _viewModel;
+        private readonly AnimeInfoDetailsPageViewModel _viewModels;
 
-        public MainPage()
+        public AnimeInfoDetailsPage()
         {
             InitializeComponent();
 
-            this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<MainPageViewModel>();
+            this.BindingContext = _viewModels = Startup.ServiceProvider.GetService<AnimeInfoDetailsPageViewModel>();
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            await _viewModel.Init();
+            _viewModels.Init();
         }
     }
 }

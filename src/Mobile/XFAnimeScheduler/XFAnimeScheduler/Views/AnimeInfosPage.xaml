@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="XFAnimeScheduler.Views.MainPage"
+    x:Class="XFAnimeScheduler.Views.AnimeInfosPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:XFAnimeScheduler.ViewModels"
+    Title="夏アニメ 一覧"
     mc:Ignorable="d">
 
     <CollectionView BackgroundColor="#eeeeee" ItemsSource="{Binding AnimeInfos}">
@@ -19,10 +20,13 @@
                         Margin="5"
                         BackgroundColor="White"
                         CornerRadius="10">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:AnimeInfosPageViewModel}}, Path=ListItemTappedCommand}" CommandParameter="{Binding Id}" />
+                        </Frame.GestureRecognizers>
                         <StackLayout>
                             <Label FontSize="Large" Text="{Binding Title}" />
-                            <Label Text="{Binding OfficialUrl}" />
-                            <StackLayout BindableLayout.ItemsSource="{Binding Schedules}">
+                            <Label HorizontalOptions="End" Text="{Binding Schedules[0].DateTimeFrom}" />
+                            <!--<StackLayout BindableLayout.ItemsSource="{Binding Schedules}">
                                 <BindableLayout.ItemTemplate>
                                     <DataTemplate>
                                         <StackLayout>
@@ -31,7 +35,7 @@
                                         </StackLayout>
                                     </DataTemplate>
                                 </BindableLayout.ItemTemplate>
-                            </StackLayout>
+                            </StackLayout>-->
                         </StackLayout>
                     </Frame>
                 </Grid>

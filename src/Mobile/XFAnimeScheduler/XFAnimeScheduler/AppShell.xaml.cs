@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFAnimeScheduler.Views;
 
 namespace XFAnimeScheduler
 {
@@ -15,6 +16,9 @@ namespace XFAnimeScheduler
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute("animeInfos", typeof(AnimeInfosPage));
+            Routing.RegisterRoute("animeInfos/details", typeof(AnimeInfoDetailsPage));
         }
     }
 }

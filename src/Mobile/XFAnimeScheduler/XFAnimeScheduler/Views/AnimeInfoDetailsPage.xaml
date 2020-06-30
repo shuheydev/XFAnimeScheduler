@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFAnimeScheduler.Views.AnimeInfoDetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="詳細"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Margin="10,5">
+            <Frame Margin="10">
+                <Label
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    Text="{Binding AnimeInfo.Title}" />
+            </Frame>
+            <Frame Margin="10,0">
+                <Label Text="放送スケジュール" />
+            </Frame>
+            <CollectionView
+                Margin="100,0,0,0"
+                BackgroundColor="Transparent"
+                ItemsSource="{Binding AnimeInfo.Schedules}"
+                SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Station}" />
+                            <Label Margin="30,0,0,0" Text="{Binding DateTimeFrom}" />
+                            <BoxView
+                                Margin="10,0"
+                                BackgroundColor="LightPink"
+                                HeightRequest="1" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

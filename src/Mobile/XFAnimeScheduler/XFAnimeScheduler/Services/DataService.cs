@@ -11,30 +11,35 @@ namespace XFAnimeScheduler.Services
 {
     public class DataService : IDataService
     {
-        public async Task<IEnumerable<AnimeInfo>> GetAnimeInfosAsync()
+        private IEnumerable<AnimeInfo> _animeInfos = new List<AnimeInfo>();
+
+        public DataService()
+        {
+            Init().GetAwaiter().GetResult();
+        }
+
+        public AnimeInfo GetAnimeInfoById(int animeId)
+        {
+            return _animeInfos.FirstOrDefault(a => a.Id == animeId);
+        }
+
+        private async Task Init()
         {
             var assembly = Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream("XFAnimeScheduler.Resources.Summer_Anime.json");
 
-            var animeInfos = await JsonSerializer.DeserializeAsync<IEnumerable<AnimeInfo>>(stream);
+            _animeInfos = await JsonSerializer.DeserializeAsync<IEnumerable<AnimeInfo>>(stream);
+        }
+
+        public async Task<IEnumerable<AnimeInfo>> GetAnimeInfosAsync()
+        {
+            await Init();
+
+            var a = _animeInfos.Select(a => a.Schedules.Min(s =>$"{a.Title} {s.GetDateTimeOffset().ToString()}"));
 
             //放送日の早い順に並び替え用
-
-            return animeInfos.OrderBy(a =>
-            {
-                var validSchedules = a.Schedules.Where(s => s.GetDateTimeOffset() != DateTimeOffset.MinValue);
-
-                if (!validSchedules.Any())
-                    return DateTimeOffset.MaxValue;
-
-                var earliestSchedule = validSchedules.Min(s =>
-                  {
-                      var min = s.GetDateTimeOffset();
-                      return min;
-                  });
-
-                return earliestSchedule;
-            });
+            var b= _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
+            return _animeInfos.OrderBy(anime => anime.Schedules.Min(s => s.GetDateTimeOffset()));
         }
     }
 }

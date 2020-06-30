@@ -54,7 +54,8 @@ namespace XFAnimeScheduler
             //services.AddTransient<MainPage>();
 
             services.AddSingleton<IDataService, DataService>();
-            services.AddTransient<MainPageViewModel>();
+            services.AddTransient<AnimeInfosPageViewModel>();
+            services.AddTransient<AnimeInfoDetailsPageViewModel>();
             services.AddTransient<Page, AppShell>();
             services.AddSingleton<App>();
         }

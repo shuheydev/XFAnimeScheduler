@@ -9,5 +9,6 @@ namespace XFAnimeScheduler.Services
     public interface IDataService
     {
         Task<IEnumerable<AnimeInfo>> GetAnimeInfosAsync();
+        AnimeInfo GetAnimeInfoById(int animeId);
     }
 }
