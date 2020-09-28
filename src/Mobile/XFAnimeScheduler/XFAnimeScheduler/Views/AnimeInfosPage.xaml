@@ -8,7 +8,7 @@
     xmlns:ext="clr-namespace:XFAnimeScheduler.Extensions"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:XFAnimeScheduler.ViewModels"
-    Title="夏アニメ 一覧"
+    Title="2020 秋アニメ 一覧"
     mc:Ignorable="d">
 
     <CollectionView BackgroundColor="#eeeeee" ItemsSource="{Binding AnimeInfos}">
