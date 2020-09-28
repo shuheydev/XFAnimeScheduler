@@ -27,7 +27,7 @@ namespace XFAnimeScheduler.Services
         private async Task Init()
         {
             var assembly = Assembly.GetExecutingAssembly();
-            var stream = assembly.GetManifestResourceStream("XFAnimeScheduler.Resources.Summer_Anime.json");
+            var stream = assembly.GetManifestResourceStream("XFAnimeScheduler.Resources.AnimeSchedule.json");
 
             _animeInfos = await JsonSerializer.DeserializeAsync<IEnumerable<AnimeInfo>>(stream);
 
@@ -39,9 +39,9 @@ namespace XFAnimeScheduler.Services
             }
 
             //スケジュールを早い順に並べ替え
-            foreach(var animeInfo in _animeInfos)
+            foreach (var animeInfo in _animeInfos)
             {
-                animeInfo.Schedules = animeInfo.Schedules.OrderBy(s=>s.GetDateTimeOffset()).ToList();
+                animeInfo.Schedules = animeInfo.Schedules.OrderBy(s => s.GetDateTimeOffset()).ToList();
             }
         }
 
