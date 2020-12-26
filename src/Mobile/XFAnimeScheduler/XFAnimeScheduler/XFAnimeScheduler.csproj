@@ -14,130 +14,14 @@
 
   <ItemGroup>
     <None Remove="Resources\AnimeSchedule.json" />
-    <None Remove="Resources\Images\0.png" />
-    <None Remove="Resources\Images\1.png" />
-    <None Remove="Resources\Images\10.png" />
-    <None Remove="Resources\Images\11.png" />
-    <None Remove="Resources\Images\12.png" />
-    <None Remove="Resources\Images\13.png" />
-    <None Remove="Resources\Images\14.png" />
-    <None Remove="Resources\Images\15.png" />
-    <None Remove="Resources\Images\16.png" />
-    <None Remove="Resources\Images\17.png" />
-    <None Remove="Resources\Images\18.png" />
-    <None Remove="Resources\Images\19.png" />
-    <None Remove="Resources\Images\2.png" />
-    <None Remove="Resources\Images\20.png" />
-    <None Remove="Resources\Images\21.png" />
-    <None Remove="Resources\Images\22.png" />
-    <None Remove="Resources\Images\23.png" />
-    <None Remove="Resources\Images\24.png" />
-    <None Remove="Resources\Images\25.png" />
-    <None Remove="Resources\Images\26.png" />
-    <None Remove="Resources\Images\27.png" />
-    <None Remove="Resources\Images\28.png" />
-    <None Remove="Resources\Images\29.png" />
-    <None Remove="Resources\Images\3.png" />
-    <None Remove="Resources\Images\30.png" />
-    <None Remove="Resources\Images\31.png" />
-    <None Remove="Resources\Images\32.png" />
-    <None Remove="Resources\Images\33.png" />
-    <None Remove="Resources\Images\34.png" />
-    <None Remove="Resources\Images\35.png" />
-    <None Remove="Resources\Images\36.png" />
-    <None Remove="Resources\Images\37.png" />
-    <None Remove="Resources\Images\38.png" />
-    <None Remove="Resources\Images\39.png" />
-    <None Remove="Resources\Images\4.png" />
-    <None Remove="Resources\Images\40.png" />
-    <None Remove="Resources\Images\41.png" />
-    <None Remove="Resources\Images\42.png" />
-    <None Remove="Resources\Images\43.png" />
-    <None Remove="Resources\Images\44.png" />
-    <None Remove="Resources\Images\45.png" />
-    <None Remove="Resources\Images\46.png" />
-    <None Remove="Resources\Images\47.png" />
-    <None Remove="Resources\Images\48.png" />
-    <None Remove="Resources\Images\49.png" />
-    <None Remove="Resources\Images\5.png" />
-    <None Remove="Resources\Images\50.png" />
-    <None Remove="Resources\Images\51.png" />
-    <None Remove="Resources\Images\52.png" />
-    <None Remove="Resources\Images\53.png" />
-    <None Remove="Resources\Images\54.png" />
-    <None Remove="Resources\Images\55.png" />
-    <None Remove="Resources\Images\56.png" />
-    <None Remove="Resources\Images\57.png" />
-    <None Remove="Resources\Images\58.png" />
-    <None Remove="Resources\Images\6.png" />
-    <None Remove="Resources\Images\7.png" />
-    <None Remove="Resources\Images\8.png" />
-    <None Remove="Resources\Images\9.png" />
+    <None Remove="Resources\AnimeSchedule_2020_autumn.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="appsettings.json" Condition="'$(Configuration)' != 'Debug' or !Exists('appsettings.Development.json')" />
     <EmbeddedResource Include="appsettings.Development.json" Link="appsettings.json" Condition="'$(Configuration)' == 'Debug' and Exists('appsettings.Development.json')" />
     <EmbeddedResource Include="Resources\AnimeSchedule.json" />
-    <EmbeddedResource Include="Resources\Images\0.png" />
-    <EmbeddedResource Include="Resources\Images\1.png" />
-    <EmbeddedResource Include="Resources\Images\10.png" />
-    <EmbeddedResource Include="Resources\Images\11.png" />
-    <EmbeddedResource Include="Resources\Images\12.png" />
-    <EmbeddedResource Include="Resources\Images\13.png" />
-    <EmbeddedResource Include="Resources\Images\14.png" />
-    <EmbeddedResource Include="Resources\Images\15.png" />
-    <EmbeddedResource Include="Resources\Images\16.png" />
-    <EmbeddedResource Include="Resources\Images\17.png" />
-    <EmbeddedResource Include="Resources\Images\18.png" />
-    <EmbeddedResource Include="Resources\Images\19.png" />
-    <EmbeddedResource Include="Resources\Images\2.png" />
-    <EmbeddedResource Include="Resources\Images\20.png" />
-    <EmbeddedResource Include="Resources\Images\21.png" />
-    <EmbeddedResource Include="Resources\Images\22.png" />
-    <EmbeddedResource Include="Resources\Images\23.png" />
-    <EmbeddedResource Include="Resources\Images\24.png" />
-    <EmbeddedResource Include="Resources\Images\25.png" />
-    <EmbeddedResource Include="Resources\Images\26.png" />
-    <EmbeddedResource Include="Resources\Images\27.png" />
-    <EmbeddedResource Include="Resources\Images\28.png" />
-    <EmbeddedResource Include="Resources\Images\29.png" />
-    <EmbeddedResource Include="Resources\Images\3.png" />
-    <EmbeddedResource Include="Resources\Images\30.png" />
-    <EmbeddedResource Include="Resources\Images\31.png" />
-    <EmbeddedResource Include="Resources\Images\32.png" />
-    <EmbeddedResource Include="Resources\Images\33.png" />
-    <EmbeddedResource Include="Resources\Images\34.png" />
-    <EmbeddedResource Include="Resources\Images\35.png" />
-    <EmbeddedResource Include="Resources\Images\36.png" />
-    <EmbeddedResource Include="Resources\Images\37.png" />
-    <EmbeddedResource Include="Resources\Images\38.png" />
-    <EmbeddedResource Include="Resources\Images\39.png" />
-    <EmbeddedResource Include="Resources\Images\4.png" />
-    <EmbeddedResource Include="Resources\Images\40.png" />
-    <EmbeddedResource Include="Resources\Images\41.png" />
-    <EmbeddedResource Include="Resources\Images\42.png" />
-    <EmbeddedResource Include="Resources\Images\43.png" />
-    <EmbeddedResource Include="Resources\Images\44.png" />
-    <EmbeddedResource Include="Resources\Images\45.png" />
-    <EmbeddedResource Include="Resources\Images\46.png" />
-    <EmbeddedResource Include="Resources\Images\47.png" />
-    <EmbeddedResource Include="Resources\Images\48.png" />
-    <EmbeddedResource Include="Resources\Images\49.png" />
-    <EmbeddedResource Include="Resources\Images\5.png" />
-    <EmbeddedResource Include="Resources\Images\50.png" />
-    <EmbeddedResource Include="Resources\Images\51.png" />
-    <EmbeddedResource Include="Resources\Images\52.png" />
-    <EmbeddedResource Include="Resources\Images\53.png" />
-    <EmbeddedResource Include="Resources\Images\54.png" />
-    <EmbeddedResource Include="Resources\Images\55.png" />
-    <EmbeddedResource Include="Resources\Images\56.png" />
-    <EmbeddedResource Include="Resources\Images\57.png" />
-    <EmbeddedResource Include="Resources\Images\58.png" />
-    <EmbeddedResource Include="Resources\Images\6.png" />
-    <EmbeddedResource Include="Resources\Images\7.png" />
-    <EmbeddedResource Include="Resources\Images\8.png" />
-    <EmbeddedResource Include="Resources\Images\9.png" />
+    <EmbeddedResource Include="Resources\Schedules\AnimeSchedule_2020_autumn.json" />
   </ItemGroup>
   
   <ItemGroup>
@@ -170,5 +54,9 @@
     <EmbeddedResource Update="Views\AnimeInfosPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
   </ItemGroup>
 </Project>

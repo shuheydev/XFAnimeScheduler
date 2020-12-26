@@ -44,7 +44,7 @@ namespace Animescheduler
             };
             var json = System.Text.Json.JsonSerializer.Serialize<IEnumerable<AnimeInfo>>(animeInfos, options);
 
-            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Summer_Anime.json");
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"AnimeSchedule_{Settings.Season}.json");
             using var sw = new StreamWriter(filePath).BaseStream;
             await JsonSerializer.SerializeAsync(sw, animeInfos, options);
         }
