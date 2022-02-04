@@ -130,7 +130,7 @@ namespace Animescheduler
             //        //作品公式URL取得
             //        //a.officialSite
             //        animeInfo.OfficialUrl = GetOfficialUrl(elem);
-            string url = elem.QuerySelector("a.officialSite").GetAttribute("href");
+            string url = elem.QuerySelector("a.officialSite")?.GetAttribute("href") ?? string.Empty;
 
             return url;
         }
@@ -140,7 +140,7 @@ namespace Animescheduler
             //        //タイトル取得
             //        //div.mTitle h2 a text
             //        animeInfo.Title = GetTitle(elem);
-            string title = elem.QuerySelector("div.mTitle h2 a").Text();
+            string title = elem.QuerySelector("div.mTitle h2 a")?.Text() ?? string.Empty;
 
             return title;
         }

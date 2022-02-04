@@ -29,7 +29,7 @@ namespace Animescheduler
 
             var serviceProvider = services.BuildServiceProvider();
 
-            var scraper = serviceProvider.GetService<IAnimeScraper>();
+            var scraper = serviceProvider.GetService<IAnimeScraper>() ?? throw new InvalidOperationException("IAnimeScraperのインスタンス化に失敗しました");
 
             var doc = await scraper.GetHtmlDocumentAsync();
             var animeElems = scraper.GetAnimeElements(doc);

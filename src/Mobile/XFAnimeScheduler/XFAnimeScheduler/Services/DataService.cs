@@ -29,7 +29,7 @@ namespace XFAnimeScheduler.Services
             var assembly = Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream("XFAnimeScheduler.Resources.AnimeSchedule.json");
 
-            _animeInfos = await JsonSerializer.DeserializeAsync<IEnumerable<AnimeInfo>>(stream);
+            _animeInfos = await JsonSerializer.DeserializeAsync<IEnumerable<AnimeInfo>>(stream) ?? new List<AnimeInfo>();
 
             //画像リソースを割り当てる
             string assemblyName = Assembly.GetExecutingAssembly().GetName().Name;

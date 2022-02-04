@@ -36,15 +36,15 @@ namespace XFAnimeScheduler
                     nativeConfigureServices(c, x);
                     ConfigureServices(c, x);
                 })
-                .ConfigureLogging(l => l.AddConsole(o =>
+                .ConfigureLogging(l => l.AddSimpleConsole(o =>
                 {
-                    o.DisableColors = true;
+                    o.ColorBehavior = Microsoft.Extensions.Logging.Console.LoggerColorBehavior.Disabled;
                 }))
                 .Build();
 
             ServiceProvider = host.Services;
 
-            return ServiceProvider.GetService<App>();
+            return ServiceProvider.GetService<App>() ?? throw new InvalidOperationException("App クラスのインスタンス化に失敗しました");
         }
 
         private static void ConfigureServices(HostBuilderContext context, IServiceCollection services)
