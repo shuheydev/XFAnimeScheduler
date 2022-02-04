@@ -3,11 +3,11 @@
     x:Class="XFAnimeScheduler.Views.AnimeInfosPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:conv="clr-namespace:XFAnimeScheduler.Converters"
-    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:ext="clr-namespace:XFAnimeScheduler.Extensions"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:conv="clr-namespace:XFAnimeScheduler.Converters"
     xmlns:vm="clr-namespace:XFAnimeScheduler.ViewModels"
+    x:DataType="vm:AnimeInfosPageViewModel"
     Title="2021 冬アニメ 一覧"
     mc:Ignorable="d">
 
@@ -16,14 +16,14 @@
             <LinearItemsLayout ItemSpacing="0" Orientation="Vertical" />
         </CollectionView.ItemsLayout>
         <CollectionView.ItemTemplate>
-            <DataTemplate>
+            <DataTemplate x:DataType="{x:Null}">
                 <Grid>
                     <Frame
                         Margin="5"
                         Padding="0"
                         BackgroundColor="White"
                         CornerRadius="10">
-                        <Frame.GestureRecognizers>
+                        <Frame.GestureRecognizers >
                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:AnimeInfosPageViewModel}}, Path=ListItemTappedCommand}" CommandParameter="{Binding Id}" />
                         </Frame.GestureRecognizers>
 

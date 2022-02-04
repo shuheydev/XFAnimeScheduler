@@ -7,6 +7,8 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:ext="clr-namespace:XFAnimeScheduler.Extensions"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:XFAnimeScheduler.ViewModels"
+    x:DataType="vm:AnimeInfoDetailsPageViewModel"
     Title="詳細"
     mc:Ignorable="d">
     <ContentPage.Content>
@@ -43,7 +45,7 @@
                         <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
                     </CollectionView.ItemsLayout>
                     <CollectionView.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate x:DataType="{x:Null}">
                             <StackLayout>
                                 <Label Text="{Binding Station}" />
                                 <Label Margin="30,0,0,0" Text="{Binding DateTimeFrom}" />
